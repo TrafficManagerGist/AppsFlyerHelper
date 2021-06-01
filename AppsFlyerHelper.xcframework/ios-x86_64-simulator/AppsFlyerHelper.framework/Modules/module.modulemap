@@ -1,0 +1,11 @@
+framework module AppsFlyerHelper {
+  umbrella header "AppsFlyerHelper-umbrella.h"
+
+  export *
+  module * { export * }
+}
+
+module AppsFlyerHelper.Swift {
+    header "AppsFlyerHelper-Swift.h"
+    requires objc
+}
